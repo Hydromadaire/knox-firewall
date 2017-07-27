@@ -25,7 +25,7 @@ class Firewall {
         final String hostName = "*";
         final String portNumber = "*";
         final String portLocation = "*";
-        final String netInterface = "data";
+        final String netInterface = "*";
 
         // Add rules for all denied apps
         for (AppModel app : installedApps)
